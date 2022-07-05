@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    place-items: center;
+    height: 100vh;
+}
+#main {
+    margin-bottom: 250px;
+}
+header {
+    padding: 4% 5%;
+}
+.head {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.head img {
+    margin-top: 5px;
+    width: 90px;
+}
+.head button {
+    padding: 5px 25px 5px 25px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400, 700;
+    box-shadow: 0 1px 15px 1px rgb(233, 217, 217);
+}
+.dtext {
+    margin: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 0ch;
+    text-align: center;
+}
+.dtext h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.dtext p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400, 700;
+    font-size: 18px;
+}
+.dtext button {
+    color: white;
+    padding: 10px 40px 10px 40px;
+    margin: 30px 0 40px 0;
+}
+.display {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+.mockup {
+    margin: auto;
+}
+.mockup img{
+    width: 260px;
+    height: 190px;
+}
+.grow {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 25px;
+}
+.grow-text {
+    padding: 0%;
+}
+.grow-together {
+    padding: 0ch;
+    margin-bottom: 30px;
+}
+.grow-together img {
+    width: 250px;
+    height: 200px;
+}
+.flow {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+}
+.flow-text {
+    padding: 0%;
+}
+.flow-convo {
+    margin-bottom: 30px;
+    padding: 0ch;
+    margin-right: 0ch;
+}
+.flow-convo img {
+    width: 250px;
+    height: 200px;
+}
+.your-users {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 25px;
+}
+.users {
+    margin-bottom: 30px;
+}
+.users img{
+    width: 250px;
+    height: 200px;
+}
+.ready {
+    left: 0%;
+    text-align: center;
+    top: 62%;
+    margin: 0px 10px 0px 10px;
+    padding: 30px 0 30px 0;
+}
+footer {
+    padding-top: 20%;
+}
+.foot {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 0%;
+    justify-content: left;
+    place-items: left;
+    padding-left: 15px;
+}
+.SVG {
+    margin-bottom: 20px;
+}
+footer p {
+    text-align: center;
+    color: white;
+    margin-right: 0%;
+}
+.footer2, .footer3 {
+    padding: 10px;
+}
+.a, .b, .c, .footer2 li a, .footer3 li a {
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+}

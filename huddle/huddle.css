@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    height: 100vh;
+}
+h1, h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+#main p {
+    color: hsl(208, 11%, 55%);
+}
+p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+header {
+    background-color: hsl(193, 100%, 96%);
+    display: flex;
+    flex-direction: column;
+    padding: 3% 10%;
+}
+.display {
+    display: flex;
+    margin: auto;
+    place-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+.head img {
+    width: 150px;
+}
+.mockup img {
+    width: 400px;
+    height: 300px;
+}
+.head button {
+    float: right;
+    border: 0ch;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 10px;
+}
+.dtext {
+    padding-right: 10%;
+}
+.dtext button {
+    margin-top: 5%;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 0ch;
+    border-radius: 25px;
+    background-color: hsl(322, 100%, 66%);
+}
+.dtext p{
+    margin-top: 5%;
+}
+main {
+    position: relative;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 200px;
+}
+.grow {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    place-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 2%;
+    box-shadow: 0 1px 15px 1px rgb(233, 217, 217);
+}
+.grow-text h2 {
+    padding-bottom: 15px;
+}
+.flow {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    place-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 2%;
+    box-shadow: 0 1px 15px 1px rgb(223, 217, 217);
+}
+.flow-text h2{
+    padding-bottom: 15px;
+}
+.your-users {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    place-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    box-shadow: 0 1px 15px 1px rgb(233, 217, 217);
+}
+.ready {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 50px 50px 50px 50px;
+    border-radius: 10px;
+    box-shadow: 0 1px 15px 1px rgb(233, 217, 217);
+    place-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 63%;
+    left: 27%;
+    background-color: white;
+}
+#button {
+    margin-top: 15px;
+}
+.ready button {
+    margin-top: 5%;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 0ch;
+    border-radius: 25px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    text-align: center;
+}
+.ytext h2 {
+    padding-bottom: 15px;
+}
+.grow-text {
+    padding-left: 5%;
+    padding-right: 10%;
+}
+.grow-together {
+    padding-right: 5%;
+}
+.grow-together img {
+    width: 300px;
+    height: 250px;
+}
+.flow-convo {
+    padding-left: 5%;
+    margin-right: 10px;
+}
+.flow-convo img {
+    width: 300px;
+    height: 250px;
+}
+.flow-text {
+    padding-right: 5%;
+    padding-left: 10%;
+}
+.ytext {
+    padding-left: 5%;
+    padding-right: 10%;
+}
+.users {
+    padding-right: 5%;
+}
+.users img {
+    width: 300px;
+    height: 250px;
+}
+footer {
+    padding-top: 15%;
+    padding-bottom: 5%;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+}
+.foot {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    place-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+footer p {
+    text-align: right;
+    margin-right: 10%;
+}
+.footer1, .footer2, .footer3, .footer4 {
+    padding: 25px;
+    flex: 20%;
+}
+.footer1 li {
+    padding-left: 15px;
+}
+.SVG {
+    color: white;
+    margin-bottom: 30px;
+    float: left;
+}
+.footer2 li, .footer3 li {
+    list-style-type: none;
+    
+}
+.footer2 a, .footer3 a {
+    text-decoration: none;
+    color: white;
+}
+.a, .b, .c, .footer2 li a, .footer3 li a {
+    font-family: "Open Sans", sans-serif;
+}
+.a {
+    list-style-image: url('images/icon-location.svg');
+}
+.b {
+    list-style-image: url('images/icon-phone.svg');
+}
+.c {
+    list-style-image: url('images/icon-email.svg');
+}
